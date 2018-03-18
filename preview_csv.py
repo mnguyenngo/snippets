@@ -3,8 +3,8 @@
 import pandas as pd
 import sys
 
-def preview_csv(file, delimiter=','):
-    data = pd.read_csv(sys.argv[1], delimiter=delimiter)
+def preview_csv(filename, delimiter=','):
+    data = pd.read_csv(filename, delimiter=delimiter)
 
     print('-------------')
     print('DESCRIBE')
